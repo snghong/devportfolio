@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'novena image.png',
+    img: 'novena image.PNG',
     title: 'Novena Furniture Singapore',
     info:
       'As the Front-End Developer for their E-Commerce website, I focused on Mobile Optimization, Responsive Design and building utility features for consumers.',
