@@ -33,6 +33,13 @@ const Footer = () => {
             })}
         </div>
         <hr />
+        <p style={{ display: 'inline' }}>
+          This portfolio was built with Gatsby and styled with Bootstrap, based on a template from
+          Jacobo Martinez (cobidev). View the source code for this website{' '}
+        </p>
+        <a href="https://github.com/snghong/devportfolio" style={{ display: 'inline' }}>
+          here.
+        </a>
       </Container>
     </footer>
   );
