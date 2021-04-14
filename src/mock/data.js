@@ -40,7 +40,7 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'homebox demo.PNG',
     title: 'E-Commerce Project with Nextjs',
     info: 'Fully functional E-Commerce site built with React, Nextjs and styled with Tailwind.',
     info2:
