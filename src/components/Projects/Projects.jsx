@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, video } = project;
 
             return (
               <Row key={id}>
@@ -100,7 +100,18 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
+                            {video ? (
+                              <video
+                                width={isMobile ? '300px' : '700px'}
+                                height={isMobile ? '200px' : '300px'}
+                                autoPlay
+                                muted
+                              >
+                                <source src={video} type="video/mp4" />
+                              </video>
+                            ) : (
+                              <ProjectImg alt={title} filename={img} />
+                            )}
                           </div>
                         </Tilt>
                       </a>
