@@ -34,8 +34,8 @@ export const projectsData = [
     info:
       'As the Front-End Developer for their E-Commerce website, I focused on Mobile Optimization, Responsive Design and building utility features for consumers.',
     info2: 'User Interface/Experience design with Shopify Liquid and SCSS.',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.novena.com.sg',
+    repo: '', // if no repo, the button will not show up
   },
 
   {
@@ -56,7 +56,7 @@ export const projectsData = [
       "In Project Sushi, you control a tiny human with a large craving for salmon sushi! Help him navigate various perils including the conveyor belt, onerous onigiri, monstrous maki, and even chopsticks from above whose owners think that he's a food item as well! ",
     info2: 'Light-hearted arcade game built with Unity 2D and C# scripting.',
     url: 'https://red-bean.itch.io/project-sushi',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/snghong/project-sushi', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -66,7 +66,7 @@ export const projectsData = [
       'Aliens have invaded your homeland, leaving destruction in their wake. Make the perilous journey home, and restore peace to your beloved night sky.',
     info2: 'Intergalactic space chase built with Unity 3D, C# scripting, and animated using Unity.',
     url: 'https://red-bean.itch.io/homebound',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/snghong/Homebound', // if no repo, the button will not show up
   },
 ];
 
@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'www.linkedin.com/in/sng-hong',
+      url: 'https://linkedin.com/in/sng-hong',
     },
     {
       id: nanoid(),
