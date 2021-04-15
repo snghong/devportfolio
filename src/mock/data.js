@@ -45,8 +45,8 @@ export const projectsData = [
     info: 'Fully functional E-Commerce site built with React, Nextjs and styled with Tailwind.',
     info2:
       'Uses Airtable for database management and a serverless lambda function for payment integration at checkout.',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://homebox-48seefib3-homebox-team.vercel.app/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -66,7 +66,7 @@ export const projectsData = [
       'Aliens have invaded your homeland, leaving destruction in their wake. Make the perilous journey home, and restore peace to your beloved night sky.',
     info2: 'Intergalactic space chase built with Unity 3D, C# scripting, and animated using Unity.',
     url: 'https://red-bean.itch.io/homebound',
-    repo: 'https://github.com/snghong/Homebound', // if no repo, the button will not show up
+    repo: 'https://github.com/snghong/homebound3D', // if no repo, the button will not show up
   },
 ];
 
