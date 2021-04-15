@@ -45,7 +45,7 @@ export const projectsData = [
     info: 'Fully functional E-Commerce site built with React, Nextjs and styled with Tailwind.',
     info2:
       'Uses Airtable for database management and a serverless lambda function for payment integration at checkout.',
-    url: 'https://homebox-48seefib3-homebox-team.vercel.app/',
+    url: 'https://homebox-psi.vercel.app',
     repo: '', // if no repo, the button will not show up
   },
   {
