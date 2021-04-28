@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne: "Hi there! I'm Sng Hong, a software developer from Singapore.",
   paragraphTwo:
-    'My projects include: Game Development with C# and Unity, Web Development with React, and UI/UX for E-Commerce. My stack includes: C#, Python, HTML5, CSS3, JavaScript and React.',
+    'My projects include: Game Development with C# and Unity, Web Development with React, Full Stack with Ruby on Rails and UI/UX for E-Commerce. My stack includes: C#, Python, HTML5, CSS3, JavaScript, React and Ruby on Rails.',
   paragraphThree: "Carnegie Mellon University '25",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
