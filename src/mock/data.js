@@ -37,15 +37,6 @@ export const projectsData = [
     url: 'https://www.novena.com.sg',
     repo: '', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'novena image.PNG',
-    title: 'Ruby on Rails twitter clone',
-    info: 'RoR',
-    info2: 'RR',
-    url: 'https://enigmatic-wave-46036.herokuapp.com/',
-    repo: 'https://github.com/snghong/sample_app', // if no repo, the button will not show up
-  },
 
   {
     id: nanoid(),
@@ -56,6 +47,17 @@ export const projectsData = [
       'Uses Airtable for database management and a serverless lambda function for payment integration at checkout.',
     url: 'https://homebox-psi.vercel.app',
     repo: '', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'rails.PNG',
+    title: 'Ruby on Rails twitter clone',
+    info:
+      'Twitter app build from the rails tutorial by M.Hartl. Learnt about MVC, testing, associations in a relational database, and more.',
+    info2: 'Login with email:example@railstutorial.org and password:foobar to have a look around!',
+    url: 'https://enigmatic-wave-46036.herokuapp.com/',
+    repo: 'https://github.com/snghong/sample_app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
