@@ -37,6 +37,15 @@ export const projectsData = [
     url: 'https://www.novena.com.sg',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'novena image.PNG',
+    title: 'Ruby on Rails twitter clone',
+    info: 'RoR',
+    info2: 'RR',
+    url: 'https://enigmatic-wave-46036.herokuapp.com/',
+    repo: 'https://github.com/snghong/sample_app', // if no repo, the button will not show up
+  },
 
   {
     id: nanoid(),
