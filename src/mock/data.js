@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hi! My name is ',
-  name: 'Sng Hong',
+  name: 'Hong',
   subtitle: "I'm a Software Developer",
   cta: '',
 };
@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: "Hi there! I'm Sng Hong, a software developer from Singapore.",
+  paragraphOne: "Hi there! I'm Hong Sng, a software developer.",
   paragraphTwo:
-    'My projects include: Game Development with C# and Unity, Web Development with React, Full Stack with Ruby on Rails and UI/UX for E-Commerce. My stack includes: C#, Python, HTML5, CSS3, JavaScript, React and Ruby on Rails.',
+    'My projects include: Game Development with C# and Unity, Web Development with React, Ruby on Rails and UI/UX for E-Commerce. My stack includes: C#, Python, HTML5, CSS3, JavaScript, React and Ruby on Rails.',
   paragraphThree: "Carnegie Mellon University '25",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -29,12 +29,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'novocall.PNG',
+    title: 'Novocall Singapore',
+    info:
+      'Build features for integrated chat platform using HTML, React in frontend and Ruby on Rails (postgresql) for backend. Used APIs like Whatsapp and Telegram and JavaScript libraries like jQuery, AJAX and Axios. ',
+    info2: 'Experience with Agile Scrum methodologies.',
+    url: 'https://novocall.co/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'novena image.PNG',
     title: 'Novena Furniture Singapore',
     info:
       'As the Front-End Developer for their E-Commerce website, I focused on Mobile Optimization, Responsive Design and building utility features for consumers.',
     info2: 'User Interface/Experience design with Shopify Liquid and SCSS.',
-    url: 'https://www.novena.com.sg',
+    url: 'https://www.novena.com.sg/',
     repo: '', // if no repo, the button will not show up
   },
 
