@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: "Hi there! I'm Hong Sng, a software developer.",
   paragraphTwo:
     'My projects include: Game Development with C# and Unity, Web Development with React, Ruby on Rails and UI/UX for E-Commerce. My stack includes: C#, Python, HTML5, CSS3, JavaScript, React and Ruby on Rails.',
-  paragraphThree: "Carnegie Mellon University '25",
+  paragraphThree: "Carnegie Mellon University '24",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
