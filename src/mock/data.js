@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne: "Hi there! I'm Hong Sng, a software developer.",
   paragraphTwo:
-    'My projects include: Game Development with C# and Unity, Web Development with React, Ruby on Rails and UI/UX for E-Commerce. My stack includes: C#, Python, HTML5, CSS3, JavaScript, React and Ruby on Rails.',
+    'My projects include: AI and Deep Learning with Tensorflow and Detectron, Game Development with C# and Unity, Web Development with React, Ruby on Rails and UI/UX for E-Commerce. My stack includes: Python, HTML5, CSS3, JavaScript, React and Ruby on Rails, C# and C.',
   paragraphThree: "Carnegie Mellon University '25",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -58,17 +58,28 @@ export const projectsData = [
     url: 'https://homebox-psi.vercel.app',
     repo: '', // if no repo, the button will not show up
   },
-
   {
     id: nanoid(),
-    img: 'rails.PNG',
-    title: 'Ruby on Rails twitter clone',
+    img: 'detection.png',
+    title: 'AI Litter Detection Heatmap',
     info:
-      'Twitter app build from the rails tutorial by M.Hartl. Learnt about MVC, testing, associations in a relational database, and more.',
-    info2: 'Login with email:example@railstutorial.org and password:foobar to have a look around!',
-    url: 'https://enigmatic-wave-46036.herokuapp.com/',
-    repo: 'https://github.com/snghong/sample_app', // if no repo, the button will not show up
+      'Retrained Detectron2’s region-based convolutional neural network model to identify litter using the TACO dataset.',
+    info2:
+      ' Fed model bus camera footage and visualized Pittsburgh litter density on a heatmap with Google Maps’ JavaScript API.',
+    url: null,
+    repo: 'https://github.com/snghong/heatmap', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'ASL.jpeg',
+    title: 'ASL to Speech Conversion',
+    info:
+      'Trained Tensorflow’s deep learning model to identify American Sign Language (ASL) through a webcam (openCV) ',
+    info2: 'and output speech in a language of choice with Google Text-to-Speech (Gtts)',
+    url: null,
+    repo: 'https://github.com/snghong/asltospeech', // if no repo, the button will not show up
+  },
+
   {
     id: nanoid(),
     img: 'project sushi 1.png',
@@ -88,6 +99,16 @@ export const projectsData = [
     info2: 'Intergalactic space chase built with Unity 3D, C# scripting, and animated using Unity.',
     url: 'https://red-bean.itch.io/homebound',
     repo: 'https://github.com/snghong/homebound3D', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'rails.PNG',
+    title: 'Ruby on Rails twitter clone',
+    info:
+      'Twitter app built from the rails tutorial by M.Hartl. Learnt about MVC, testing, associations in a relational database, and more.',
+    info2: 'Login with email:example@railstutorial.org and password:foobar to have a look around!',
+    url: 'https://enigmatic-wave-46036.herokuapp.com/',
+    repo: 'https://github.com/snghong/sample_app', // if no repo, the button will not show up
   },
 ];
 
